@@ -1,0 +1,27 @@
+ul{
+    background-color: black;
+    color: red;
+}
+table{
+    color: black;
+}
+div>p{
+    color: blue;
+}
+div p{
+    color: aqua;
+}
+div{
+    color: green;
+}
+a:visited{
+    color:crimson;
+}
+a:link{
+    color: black;
+}
+*{
+    margin: 0%;
+    padding: 0;
+
+}

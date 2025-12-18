@@ -1,7 +1,5 @@
-ul{
-    background-color: black;
-    color: red;
-}
+
+
 table{
     color: black;
 }
@@ -45,8 +43,33 @@ a{
         width: 100vw;
         font-size: 23px;
         background-color: aquamarine;
-        margin:  auto;
+        margin: auto;
+        
+        box-shadow: 8px 12px 18px;
+        display: inline-block;
+        
     }
     .red{
         font-size: 2rem;
+        text-shadow: 8px 12px 18px;
+     border: 10px solid orange;
+     margin: 32px;
+    }
+    .hot{
+        border: 2px solid rgb(0, 0, 0);
+       display: inline-block;
+        margin: 32px ;
+        border: 234px;
+        color: blueviolet;
+        background-color: tomato;
+         font-weight: 8000;
+         font-family: 'Times New Roman', Times, serif;
+          
+    }
+    nav ul li{
+        list-style:none inside;
+        background-color: rgba(216, 216, 15, 0.477);
+        display:inline ;
+    
+    
     }

@@ -1,5 +1,5 @@
 :root{
-    --main-color: pink;
+    --main-color:white;
     --sec-color:lightblue;
     --defpad:12px;
     --defborder:2pxsolid blue;
@@ -7,6 +7,16 @@
      
 
 }
+.banner{
+    border: 2px solid black;
+    background-color: lightgray;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+}
+
+    
+
 
 table{
     color: black;
@@ -18,7 +28,7 @@ div p{
     color: aqua;
 }
 div{
-    color: green;
+    color: black;
 }
 a:visited{
     color:crimson;
@@ -43,9 +53,16 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration:underline;
     text-decoration-color: rgb(255, 102, 0);
     text-transform: uppercase;
+    margin-top: 20px;
+    ::selection{
+        color: red;
+    }
 }
+
 a{
     font-family: Georgia, 'Times New Roman', Times, serif}
+    
+    
     #Krishna{
     
         width: 15vw;
@@ -59,6 +76,19 @@ a{
         overflow: auto;
         text-overflow: clip;
     }
+    .pranjalpandey{
+        font-size: 1rem;
+        text-shadow: 3px 5px 6px;
+     
+     margin-top: 5px;     
+    }
+    .container::after{
+        content: "this is gojo satoru anime character from jujutsu kaisen   series  and sukuna is his cursed  form ";
+        clear: both;
+        display: table;
+        font-size: 1.5rem;
+    }
+
     .red{
         font-size: 2rem;
         text-shadow: 8px 12px 18px;
@@ -81,15 +111,21 @@ a{
         list-style:none inside;
         background-color: var(--main-color);
         display:inline ;
-    
+        border: 2px solid black;
+        margin: 4px;
+border-color: aliceblue;
+::selection{
+    color: green;
+}
     
     }
     .box{
         width: 20vw;
-        height: 25px;
+        height: 10px;
         border: 5px solid black;
-        margin: 4px;
+        margin: 3px;
         padding: var(--defpad);
+        ;
     }
      .bade papa{
         width: 28px;
@@ -121,4 +157,10 @@ a{
          background-color:pink;
         }
         
+    }
+    img{
+        margin-right: auto;
+    margin-left: auto;
+    display: block;
+    float: right;
     }

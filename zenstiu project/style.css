@@ -57,7 +57,7 @@ text-shadow: 3px 3px 5px black;
         
 
     }
-    .box{
+    .box {
         width: 80px;
         height: 30px;
         background-color:white;
@@ -67,6 +67,8 @@ text-shadow: 3px 3px 5px black;
         font-weight:bold;
         padding-top: 2px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        list-style: none;
+        transform: translateY(-100%) skewX(6deg) ;
     }
 
 h3{
@@ -109,14 +111,36 @@ audio{
     }
 
 }
+    .box img{
+        vertical-align: middle;
+        margin-left: 6px;
+    }
+    .download{
+        display:grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 35px 35px;
+        border: 3px solid black;
+        height: 78vh;
+        width: 80vw;
+        gap: 6px;
+    }
+    .lang{
+        border: 2px wheat;
+        grid-row: 1/2;
+        grid-column: 1/2;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-weight: 700;
+        gap: 10px;
+        width: 100px;
+      
+        text-align: center;
+    }
+  
+    
+    
     
 
 
-    
-    
-    
-
-
-
-
+  
     
